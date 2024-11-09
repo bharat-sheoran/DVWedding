@@ -25,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" href="/TextureBackground1.JPG" as="image" />
+        <title>Deepika Weds Vikrant</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
