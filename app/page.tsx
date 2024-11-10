@@ -22,14 +22,14 @@ export default function Home() {
         <div className="text-md lg:text-xl font-bold text-center text-[#482e43] fixed top-3 backdrop-blur-sm bg-white/30">!! Om Shree Ganeshaye Namah !!</div>
         <div className="text-md lg:text-lg font-bold text-center text-[#482e43] absolute top-10">विघ्न हरण मंगल करण, श्री गणपति जी महाराज प्रथम निमंत्रण आपका, पूर्ण कीजिए काज</div>
         <div className="flex flex-col items-center font-bold text-center text-[#482e43] 3xs:mt-52 2xs:mt-52 xs:mt-52 md:mt-96" style={{ fontFamily: "Calligraffitti" }}>
-          <GradualSpacing className="2xs:text-xl sm:text-3xl md:text-6xl lg:text-7xl" text="Welcome to Our" />
-          <GradualSpacing className="2xs:text-xl sm:text-3xl md:text-6xl lg:text-7xl" text="Wedding Invitation!" />
+          <GradualSpacing className="2xs:text-xl sm:text-3xl md:text-6xl lg:text-7xl" text="You're Invited to" />
+          <GradualSpacing className="2xs:text-xl sm:text-3xl md:text-6xl lg:text-7xl" text="Our Wedding!" />
         </div>
         <div className="flex flex-col absolute 3xs:relative 2xs:relative md:absolute top-16 3xs:top-3 2xs:top-3 md:top-20 md:right-3 2xs:right-0 border 2xs:border-0 md:border border-black rounded-xl">
           <Calendar className="2xs:text-sm" selected={date} />
           <div className="text-md flex justify-center font-bold text-center text-[#482e43]">24TH NOVEMBER 2024</div>
         </div>
-        <div className="w-full fixed bottom-10 flex justify-between items-end p-2 backdrop-blur-sm bg-white/30 rounded-lg">
+        <div className="w-full fixed bottom-10 flex justify-between items-end p-2 backdrop-blur-sm bg-white/30 rounded-lg z-30">
           <div className="">
             <h5 className="text-md 3xs:text-xs 2xs:text-xs sm:text-sm md:text-md lg:text-lg font-bold text-[#482e43]">Awaiting your benign presence:</h5>
             <h3 className="text-xl 3xs:text-sm 2xs:text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#482e43]">Ganga Ram Sheoran</h3>
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center" style={{ fontFamily: "Babylonica" }}><TextRevealByWord className="text-7xl md:text-8xl lg:text-10xl" text="Deepika with Vikrant" /></div>
-      <div className="min-h-[calc(100vh/1.2)] relative bottom-10">
+      <div className="min-h-[calc(100vh/1.2)] relative bottom-10 2xs:mt-16">
         <div className="text-4xl 2xs:text-3xl md:text-5xl lg:text-6xl font-bold text-center text-[#482e43]" style={{ fontFamily: "Calligraffitti" }}>Golden Moments</div>
         <div className="mt-10">
           <div className="text-base 2xs:text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-center text-[#482e43]">Saturday, 23rd of November 2024</div>

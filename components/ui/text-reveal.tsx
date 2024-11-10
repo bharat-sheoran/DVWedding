@@ -2,7 +2,6 @@
 
 import { FC, ReactNode, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-
 import { cn } from "@/lib/utils";
 
 interface TextRevealByWordProps {
@@ -25,9 +24,13 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
     <div ref={targetRef} className={cn("relative z-0 h-[120vh]", className)}>
       <div
         className={
-          "sticky top-0 mx-auto flex h-[50%] max-w-4xl items-center bg-transparent px-[1rem] py-[5rem]"
+          "sticky top-0 mx-auto flex flex-col h-[50%] max-w-4xl items-center bg-transparent px-[1rem] py-[5rem]"
         }
       >
+        <div className="flex flex-col text-[#482e43]">
+          <div className="text-base lg:text-2xl text-center font-bold" style={{ fontFamily: "Sour Gummy" }}>Smt. Paramjeet Kaur & Sh. Ganga Ram Sheoran</div>
+          <div className="text-base lg:text-xl text-center" style={{ fontFamily: "Sour Gummy" }}>Solicit the pleasure of your participation to shower the petals of love & blessings on the auspicious occasion of the marriage of their beloved daughter</div>
+        </div>
         <p
           ref={targetRef}
           className={
@@ -44,6 +47,9 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
             );
           })}
         </p>
+        <div className="flex flex-col text-[#482e43]">
+          <div className="text-base lg:text-2xl text-center font-bold" style={{ fontFamily: "Sour Gummy" }}>S/o Smt. & Sh. Balwant Singh (Retd. kanoongo)</div>
+        </div>
       </div>
     </div>
   );
