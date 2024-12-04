@@ -1,9 +1,11 @@
 This is a My FreeTime project in which there is a invitation created with the help of Magicui,
+
 If you Want to run this code on your machine, Follow the Below steps
 
 ## Getting Started
 
 => First, Fork the Project
+
 => Run these commands in terminal
 
 ```bash
